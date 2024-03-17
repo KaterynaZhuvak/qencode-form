@@ -1,4 +1,5 @@
 import React from "react";
+
 import RedirectLink from "../RedirectLink/RedirectLink";
 import { StyledIsNewCompany } from "./Styled";
 

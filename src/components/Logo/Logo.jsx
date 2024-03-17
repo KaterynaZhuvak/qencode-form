@@ -1,4 +1,5 @@
 import React from "react";
+
 import { StyledLogo } from "./Styled";
 
 const Logo = () => {

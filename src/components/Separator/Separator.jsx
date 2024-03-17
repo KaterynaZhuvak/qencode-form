@@ -1,4 +1,5 @@
 import React from "react";
+
 import { StyledSeparator } from "./Styled";
 
 const Separator = () => {

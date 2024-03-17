@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const StyledSeparator = styled.p`
   position: relative;
   color: rgb(190, 197, 204);
-  font-family: Basis Grotesque Pro;
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;

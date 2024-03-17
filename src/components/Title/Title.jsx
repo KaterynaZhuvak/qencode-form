@@ -1,4 +1,5 @@
 import React from "react";
+
 import { StyledTitle } from "./Styled";
 
 const Title = ({ text }) => {

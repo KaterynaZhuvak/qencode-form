@@ -1,4 +1,5 @@
 import React from "react";
+
 import { StyledUniversalBtn } from "./Styled";
 
 const UniversalBtn = ({ title, type }) => {

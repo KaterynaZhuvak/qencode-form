@@ -4,7 +4,6 @@ export const StyledUniversalBtn = styled.button`
   width: 100%;
   padding: 12px 0;
   color: rgb(255, 255, 255);
-  font-family: Basis Grotesque Pro;
   font-size: 16px;
   font-weight: 500;
   line-height: 21px;
