@@ -1,0 +1,48 @@
+@import "node_modules/modern-normalize/modern-normalize.css";
+@import "./fonts.css": root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  color: rgb(6, 14, 30);
+  background: rgb(255, 255, 255);
+  font-family: Basis Grotesque Pro;
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+*::placeholder {
+  color: rgb(161, 171, 181);
+  font-family: Basis Grotesque Pro;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
