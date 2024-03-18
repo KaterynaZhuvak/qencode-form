@@ -28,23 +28,23 @@ npm run dev
 
 + Login page
   
-  *on this page you can log in, the fields are checked for validity and appropriate messages appear to notify the user of errors or successful operations*
+  *On this page you can log in, the fields are checked for validity and appropriate messages appear to notify the user of errors or successful operations*
 
 ![validate](./public//log_in_validate.png)
 ![errors](./public//log_in_error.png)
 
 + Forgot password page
   
-  *On this page you can send a message to your email with a link to change your password.  There is also validation on the field with mail*
+  *On this page you can send a message to your email with a link to change your password.  There is also validation on the field with email*
 
-  ![validate](./public//forgot_password.png)
+![validate](./public//forgot_password.png)
 
 + Reset password page
   
   *On this page you can replace the password with a new one, nothing will happen if the passwords are not the same, therefore there is validation and notification in case of errors on the part of the client*
 
-  ![validate](./public/reset_validate.png)
-  ![error](./public/reset_error.png)
+![validate](./public/reset_validate.png)
+![error](./public/reset_error.png)
 
 ## Used technologies
 
@@ -72,5 +72,6 @@ npm run dev
 
 + [API](https://auth-qa.qencode.com/v1/auth-api-references)
 + [Site](https://qencode-form.netlify.app/)
++ [Figma](https://www.figma.com/file/Kzyv0oyjNzJQ1LaSlqzli0/Qencode-Frontend-Developer-Test-(Copy)?type=design&node-id=0-1&mode=design&t=aSxz406w74amXxBF-0)
 
 
