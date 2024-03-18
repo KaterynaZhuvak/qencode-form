@@ -1,6 +1,6 @@
 # Qencode
 
-*This repository presents a login and password replacement form.*
+*This repository presents a login and password replacement form. The site is available for phones starting at 320 pixels.*
 
 ## Table of Contents
 - [Qencode](#qencode)
