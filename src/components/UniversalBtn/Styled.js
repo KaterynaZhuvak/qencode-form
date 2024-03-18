@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const StyledUniversalBtn = styled.button`
   width: 100%;
+  max-width: 400px;
   padding: 12px 0;
   color: rgb(255, 255, 255);
   font-size: 16px;

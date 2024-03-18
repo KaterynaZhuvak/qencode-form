@@ -10,6 +10,7 @@ import { StyledForm } from "./Styled";
 import Eye from "../../images/Eye";
 import EyeOff from "../../images/EyeOff";
 import UniversalBtn from "../UniversalBtn/UniversalBtn";
+import { Notify } from "notiflix";
 
 const NewPasswordForm = () => {
   const history = useNavigate();
@@ -38,9 +39,12 @@ const NewPasswordForm = () => {
       onSubmit={handleSubmit((data) => {
         if (data.password === data.password_confirm) {
           dispatch(resetPassword(data));
+          Notify.success(
+            "You have successfully changed your password, now you can try to log in again!"
+          );
           history("/login");
         } else {
-          console.log("faled");
+          Notify.failure("Please check if the passwords match!");
         }
       })}
     >

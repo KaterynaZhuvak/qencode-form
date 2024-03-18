@@ -1,8 +1,29 @@
-# React + Vite
+# Qencode
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*This repository presents a login and password replacement form.*
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Qencode](#qencode)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+
+
+## Installation
+
+1. Clone the repository to your computer
+2. Open a terminal and enter the following commands: 
+```JavaScript
+npm install
+```
+```JavaScript
+npm run dev
+```
+
+## Usage
+
++ Login page
+  
+  *on this page you can log in, the fields are checked for validity and appropriate messages appear to notify the user of errors or successful operations*
+

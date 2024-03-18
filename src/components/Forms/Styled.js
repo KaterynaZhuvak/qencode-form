@@ -43,6 +43,7 @@ export const StyledForm = styled.form`
 
   .cancelBtn {
     width: 100%;
+    max-width: 400px;
     padding: 12px 0;
     color: rgb(6, 14, 30);
     font-size: 16px;

@@ -8,6 +8,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { StyledForm } from "./Styled";
 import { forgotPasswordSchema } from "../../helpers/schemas";
 import UniversalBtn from "../UniversalBtn/UniversalBtn";
+import { Notify } from "notiflix";
 
 const ForgotPasswordForm = () => {
   const history = useNavigate();
@@ -24,6 +25,7 @@ const ForgotPasswordForm = () => {
     <StyledForm
       onSubmit={handleSubmit((data) => {
         dispatch(forgotPassword(data));
+        Notify.success("Now you can reset your password!");
         history("/newPassword");
       })}
     >
