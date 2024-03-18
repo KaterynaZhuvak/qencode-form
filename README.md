@@ -3,7 +3,6 @@
 *This repository presents a login and password replacement form.*
 
 ## Table of Contents
-
 - [Qencode](#qencode)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
@@ -72,6 +71,6 @@ npm run dev
 
 + [API](https://auth-qa.qencode.com/v1/auth-api-references)
 + [Site](https://qencode-form.netlify.app/)
-+ [Figma](https://www.figma.com/file/Kzyv0oyjNzJQ1LaSlqzli0/Qencode-Frontend-Developer-Test-(Copy)?type=design&node-id=0-1&mode=design&t=aSxz406w74amXxBF-0)
++ [Figma](https://www.figma.com/file/jyCTDwiw4IwadVfae9FMu8/Qencode-Frontend-Developer-Test?type=design&node-id=1-661&mode=design&t=tZXzZd7YEvpHgooI-0)
 
 

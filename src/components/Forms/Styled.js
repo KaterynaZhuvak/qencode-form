@@ -8,14 +8,11 @@ export const StyledForm = styled.form`
 
   .emailInput,
   .passwordInput {
-    width: 400px;
-    max-width: 100%;
+    width: 320px;
     padding: 12px 12px;
 
     border: 1.2px solid rgb(211, 216, 220);
     border-radius: 6px;
-    background: rgb(255, 255, 255);
-    outline: none;
   }
 
   .emailInputContainer {
@@ -32,6 +29,13 @@ export const StyledForm = styled.form`
     top: 15px;
     right: 17px;
     cursor: pointer;
+
+    transition: all 300ms cubic-bezier(0.5, -0.75, 0.7, 2);
+  }
+
+  .eyeBtn:hover,
+  .eyeBtn:focus {
+    transform: scale(1.2);
   }
 
   .errorMessage {
@@ -45,7 +49,7 @@ export const StyledForm = styled.form`
     width: 100%;
     max-width: 400px;
     padding: 12px 0;
-    color: rgb(6, 14, 30);
+    color: var(--main-black-color);
     font-size: 16px;
     font-weight: 500;
     line-height: 21px;
@@ -53,8 +57,15 @@ export const StyledForm = styled.form`
     text-align: center;
     border-radius: 8px;
     background: transparent;
-    border: 1.2px solid rgb(211, 216, 220);
+    border: 1.2px solid var(--grey-color);
     margin-bottom: 20px;
+
+    transition: all 300ms cubic-bezier(0.5, -0.75, 0.7, 2);
+  }
+
+  .cancelBtn:hover,
+  .cancelBtn:focus {
+    transform: scale(1.1);
   }
 
   .newPasswordInputContainer {
@@ -70,10 +81,20 @@ export const StyledForm = styled.form`
   }
 
   .passwordLabel {
-    color: rgb(6, 14, 30);
     font-size: 15px;
     font-weight: 500;
     line-height: 21px;
     letter-spacing: -0.24%;
+  }
+
+  @media screen and (min-width: 400px) {
+    .emailInput,
+    .passwordInput {
+      width: 400px;
+    }
+
+    .cancelBtn {
+      width: 400px;
+    }
   }
 `;

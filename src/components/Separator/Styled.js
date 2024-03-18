@@ -15,7 +15,7 @@ export const StyledSeparator = styled.p`
     top: 50%;
     width: 40%;
     height: 1px;
-    width: 182px;
+    width: 140px;
     border: 1px solid rgb(227, 230, 233);
   }
 
@@ -30,10 +30,16 @@ export const StyledSeparator = styled.p`
   }
 
   &::placeholder {
-    color: rgb(161, 171, 181);
+    color: var(--grey-color);
     font-family: Basis Grotesque Pro;
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
+  }
+
+  @media screen and (min-width: 400px) {
+  &::before,
+  &::after {
+    width: 181px;
   }
 `;

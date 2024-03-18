@@ -11,7 +11,7 @@ export const logInSchema = yup
       .required()
       .matches(
         /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,
-        "Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character"
+        "Password must contain 8 or more characters, at least one uppercase letter, one lowercase letter, one number, and one special character!"
       ),
   })
   .required();
@@ -32,14 +32,14 @@ export const resetPasswordSchema = yup
       .required()
       .matches(
         /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,
-        "Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character"
+        "Password must contain 8 or more characters, at least one uppercase letter, one lowercase letter, one number, and one special character!"
       ),
     password_confirm: yup
       .string()
       .required()
       .matches(
         /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,
-        "Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character"
+        "Password must contain 8 or more characters, at least one uppercase letter, one lowercase letter, one number, and one special character!"
       ),
   })
   .required();

@@ -1,10 +1,17 @@
 @import "node_modules/modern-normalize/modern-normalize.css";
-@import "./fonts.css": root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+@import "./fonts.css";
+
+:root {
+  --main-black-color: #060E1E;
+  --main-white-color: rgb(255, 255, 255);
+  --main-blue-color: #316FEA;
+  --blue-hover-color: rgb(11, 68, 205);
+  --grey-color: #BEC5CC;
+
 }
 
 body {
-  color: rgb(6, 14, 30);
+  color: var(--main-black-color);
   background: rgb(255, 255, 255);
   font-family: Basis Grotesque Pro;
   font-weight: 500;
